@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-COPY ["package.json", "yarn.lock", "/usr/src/service/server/"]
+COPY ["package.json", "/usr/src/service/server/"]
 
 WORKDIR /usr/src/service/server
 
